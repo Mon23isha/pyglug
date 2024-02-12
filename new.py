@@ -30,7 +30,7 @@ def main_window():
     enter2 = Entry(win, font=("Time New Roman", 20))
     enter2.place(x=50, y=200, height=50, width=400)
 
-    button = Button(win, text="Done", font=("Time New Roman", 25, "bold"), bg="Purple", fg="white")
+    button = Button(win, text="Done", font=("Time New Roman", 25, "bold"), bg="Purple", fg="white", command=correct_spelling)
     button.place(x=150, y=280, height=50, width=200)
     win.mainloop()
 
